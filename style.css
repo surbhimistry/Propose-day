@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Caveat Brush', cursive;
+    background-image: url(heart.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+}
+
+.main-box{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.imgtxtbox{
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img{
+    margin: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+p{
+font-size: 40px;
+}
+
+.yesnobox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 300px;
+
+}
+
+button{
+    margin: 10px;
+    height: 60px;
+    width: 95px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.yes{
+    background-color: rgb(227, 26, 26);
+    
+}
+
+.yes:hover{
+    background-color: rgb(183, 18, 18);
+}
+
+.no{
+    background-color: rgb(60, 60, 60);
+    color: white;
+    
+}
+
+.yesbox{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+width: 100%;
+}
+
+.yestext{
+    height: 500px;
+    width: 500px;
+}
+
+
+
