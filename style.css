@@ -87,13 +87,6 @@ width: 100%;
     height: 500px;
     width: 500px;
 }
-
-@media(max-width: 700px){
-    body{
-        background-image: url(heart2.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
-    }
 }
 
 
